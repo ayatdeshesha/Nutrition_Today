@@ -1,0 +1,493 @@
+@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+    .site-slider:before {
+        height: 323px;
+        width: 700px;
+    }
+    .slide-content {
+        padding-top: 100px;
+    }
+    .appoinmentshpae-1,
+    .appoinmentshpae-2 {
+        height: 175px;
+        width: 175px;
+    }
+    .appoinmentshpae-2 {
+        height: 40px;
+        width: 40px;
+    }
+    .footer-decoration {
+        right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    .site-slider:before {
+        height: 255px;
+        width: 526px;
+    }
+    .main-menu > ul > li.menu-item-has-children > ul.sub-menu {
+        min-width: 180px;
+    }
+    .main-menu ul ul {
+        left: 182px;
+    }
+    .slide-content {
+        padding-top: 100px;
+    }
+    .appoinmentshpae-1,
+    .appoinmentshpae-2 {
+        height: 80px;
+        width: 80px;
+        top: 35%;
+    }
+    .appoinmentshpae-1 .innershape,
+    .appoinmentshpae-2 .innershape,
+    .appoinmentshpae-2 .innershape {
+        height: 35px;
+        width: 35px;
+    }
+    .appoinmentshpae-2 {
+        height: 40px;
+        width: 40px;
+        top: auto;
+    }
+    .appoinmentshpae-2 .innershape {
+        height: 15px;
+        width: 15px;
+        bottom: inherit;
+    }
+    .footer-decoration {
+        right: 0;
+        top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .site-slider:before {
+        height: 255px;
+        width: 526px;
+    }
+    .site-slider,
+    .single-slide,
+    .bn_height {
+        height: 650px;
+    }
+    .slide-content {
+        padding-top: 150px;
+    }
+    .custom-tabs1 li.nav-item:nth-child(1) a.nav-link,
+    .custom-tabs1 li.nav-item:nth-child(2) a.nav-link {
+        border-radius: 999px;
+        margin: 3px 0;
+    }
+    .single-experts {
+        height: 415px;
+    }
+    .appoinmentshpae-1,
+    .appoinmentshpae-2 {
+        height: 80px;
+        width: 80px;
+        top: 35%;
+    }
+    .appoinmentshpae-1 .innershape,
+    .appoinmentshpae-2 .innershape,
+    .appoinmentshpae-2 .innershape {
+        height: 35px;
+        width: 35px;
+    }
+    .appoinmentshpae-2 {
+        height: 40px;
+        width: 40px;
+        top: auto;
+    }
+    .appoinmentshpae-2 .innershape {
+        height: 15px;
+        width: 15px;
+        bottom: inherit;
+    }
+    .appoinment-box {
+        padding: 50px 0px 70px 50px;
+    }
+    .frmdesign-1 {
+        width: 75%;
+    }
+    .container-fluid.custom-container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .rationSinglePrice .priceHeader .price-header-content span {
+        bottom: 8px;
+    }
+    .footer-decoration {
+        right: 0;
+        top: 30px;
+    }
+    .site-footer:after {
+        width: 265px;
+    }
+    .singleEvents .eventsThumbs .eventsDtae {
+        bottom: 34px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .site-slider:before {
+        height: 255px;
+        width: 526px;
+    }
+    .site-slider,
+    .single-slide,
+    .bn_height {
+        height: 650px;
+    }
+    .slide-content {
+        padding-top: 100px;
+    }
+    .single-health-block-big {
+        display: none;
+    }
+    .health-guide {
+        padding: 50px 0 0px;
+    }
+    .helty-recipe {
+        padding: 50px 0 50px;
+    }
+    .section-padding {
+        padding: 50px 0 20px;
+    }
+    .section-wrapper {
+        margin-bottom: 30px;
+    }
+    .experts-detils {
+        margin-top: 50px;
+    }
+    .appoinment-area {
+        margin: 0px 0px 0px;
+    }
+    .blog-area {
+        padding: 50px 0 20px;
+    }
+    .promotion-area {
+        padding: 50px 0;
+    }
+    .videobgplay {
+        top: 0;
+        width: 100%;
+        position: relative;
+    }
+    .appoinmentshpae-1,
+    .appoinmentshpae-2 {
+        height: 80px;
+        width: 80px;
+        top: 35%;
+    }
+    .appoinmentshpae-1 .innershape,
+    .appoinmentshpae-2 .innershape,
+    .appoinmentshpae-2 .innershape {
+        height: 35px;
+        width: 35px;
+    }
+    .appoinmentshpae-2 {
+        height: 40px;
+        width: 40px;
+        top: auto;
+    }
+    .appoinmentshpae-2 .innershape {
+        height: 15px;
+        width: 15px;
+        bottom: inherit;
+    }
+    .appoinment-box {
+        padding: 50px 0px 70px 50px;
+        top: 0;
+    }
+    .frmdesign-1 {
+        width: 75%;
+    }
+    .container-fluid.custom-container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .client-review.section-padding {
+        padding: 50px 0;
+    }
+    .rationSinglePrice .priceHeader .price-header-content span {
+        bottom: -12px;
+    }
+    .success-story {
+        padding: 0px 0px 45px;
+    }
+    .ration-price {
+        padding: 50px 0 20px;
+    }
+    .partners-area {
+        padding-bottom: 50px;
+    }
+    .footer-decoration {
+        right: 0;
+        top: 30px;
+    }
+    .site-footer:after {
+        width: 265px;
+    }
+    .site-footer {
+        padding: 50px 0 0;
+    }
+    .howitswork {
+        padding: 50px 0;
+    }
+    .singlehowItsWork {
+        padding: 20px;
+    }
+    .singlehowItsWork h3 {
+        font-size: 20px;
+        margin-top: -40px;
+    }
+    .singlehowItsWork:nth-child(2) h3 {
+        margin-top: -10px;
+    }
+    .page-content {
+        padding: 50px 0;
+    }
+    .page-content .experts-detils.noM {
+        margin-top: 0px;
+    }
+    .spacer-extra {
+        height: 40px;
+    }
+    .page-single .partners-area {
+        padding: 50px 0;
+    }
+    .gallerypage .single-gall {
+        width: 33.33%;
+    }
+    .filter-list li {
+        padding: 12px 25px;
+    }
+    .spacer-extra2 {
+        height: 40px;
+    }
+    .single-contact-innfo {
+        margin-bottom: 30px;
+    }
+    .site-contactform {
+        margin-bottom: 30px;
+    }
+    .page-content.minus-padding {
+        padding: 50px 0px 20px;
+    }
+    .singleEvents .eventsThumbs .eventsDtae {
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logo img {
+        height: 40px;
+    }
+    .home_1 .top-header {
+        display: none;
+    }
+    .site-slider:before {
+        width: 100%;
+        height: 200px;
+    }
+    .slide-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 15px;
+    }
+    .slide-content p {
+        font-size: 14px;
+        line-height: 24px;
+        display: none;
+    }
+    .slide-content a.btn-mr,
+    .slide-content a.btn-link,
+    .slide-content a[type='button'],
+    .slide-content a[type='reset'],
+    .slide-content a[type='submit'],
+    .slide-content .single-blog .blog-text a.blog-link,
+    .single-blog .blog-text .slide-content a.blog-link,
+    .slide-content .call-to-action a,
+    .call-to-action .slide-content a,
+    .slide-content .rationSinglePrice .priceFooter a,
+    .rationSinglePrice .priceFooter .slide-content a {
+        margin: 5px 0;
+    }
+    .site-slider,
+    .single-slide,
+    .bn_height {
+        height: 500px;
+    }
+    .health-guide .single-health-block:nth-child(1) {
+        margin-top: 30px;
+    }
+    .custom-tabs1 li.nav-item:nth-child(1) a.nav-link,
+    .custom-tabs1 li.nav-item:nth-child(2) a.nav-link {
+        border-radius: 999px;
+        margin: 3px 0;
+    }
+    .appoinmentshpae-1,
+    .appoinmentshpae-2,
+    .appoinmentshpae-2 {
+        display: none;
+    }
+    .videobgplay {
+        height: 350px;
+    }
+    .single-blog .blog-text h4 {
+        font-size: 20px;
+    }
+    .call-to-action a {
+        margin-top: 30px;
+    }
+    .site-footer:after {
+        height: 32px;
+        width: 100px;
+    }
+    .rationSinglePrice .priceHeader .price-header-content span {
+        bottom: -11px;
+    }
+    .strong-man {
+        margin-top: 30px;
+    }
+    .container-fluid.custom-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .appoinment-box {
+        padding: 30px;
+    }
+    .frmdesign-1 {
+        width: 100%;
+    }
+    .single-footer address strong {
+        font-size: 20px;
+    }
+    .call-to-action a {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .client-minithumb-active {
+        margin-top: 15px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+    .review_text-active .single-review-text {
+        height: auto;
+        padding: 15px;
+    }
+    .review_text-active {
+        padding: 40px 0px 0px;
+    }
+    .single-helathy-recipe.media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .call-to-action h3 {
+        font-size: 25px;
+    }
+    .custom-tabs1 li.nav-item a.nav-link {
+        font-size: 16px;
+    }
+    .singlehowItsWork {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .singlehowItsWork:nth-child(3) {
+        height: auto;
+    }
+    .row.grid.howitsGrid[style] {
+        height: 1030px !important;
+    }
+    .helty-recipe.home-page2 {
+        padding: 50px 0 0;
+    }
+    .footer-titil {
+        font-size: 18px;
+    }
+    .page-banner h3,
+    .video-promtionOX h3 {
+        padding-top: 150px;
+        font-size: 25px;
+    }
+    ul.lft li {
+        padding-bottom: 5px;
+    }
+    .single-experts {
+        margin-bottom: 30px;
+    }
+    .spacer-extra {
+        height: 15px;
+    }
+    .footer-decoration {
+        display: none;
+    }
+    #accordion .card-header.card-primary h5 span.btn {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .video-promtionOX.mb2 {
+        height: auto;
+        margin-bottom: 165px;
+    }
+    .single-blog .blog-thumb img {
+        width: 100%;
+    }
+    .promo-add .promo-text {
+        border: none;
+    }
+    .media.single-comments {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .media.single-comments img {
+        margin-bottom: 15px;
+    }
+    .media.single-comments .media {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .comments-section .media.single-comments h5 span {
+        padding-left: 0px;
+    }
+    .singleEvents .eventsThumbs .eventsDtae {
+        bottom: 46px;
+    }
+    .gallerypage .single-gall {
+        width: 100%;
+    }
+    .filter-list li {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo img {
+        height: auto;
+    }
+    .rationSinglePrice .priceHeader .price-header-content span {
+        display: none;
+    }
+    .rationSinglePrice .priceHeader .price-header-content {
+        padding: 17px;
+    }
+    .footer-decoration {
+        display: block;
+    }
+    .gallerypage .single-gall {
+        width: 50%;
+    }
+}
