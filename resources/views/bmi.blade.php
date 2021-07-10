@@ -135,7 +135,7 @@ page banner section
  <section class="client-review section-padding">
     <div class="container">
         <div class="row ">
-        <div class="col-lg-7">
+            <div class="col-lg-7">
                 <div class="row">
                     <h3 class="section-title  col-12">BMI Introduction</h3>         
                     <div class="col-md-10">

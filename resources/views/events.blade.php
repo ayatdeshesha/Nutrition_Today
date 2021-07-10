@@ -135,7 +135,7 @@ page banner section
 
 
     <!--
-    our experts
+    our events
  -->
 
     <section class="ration-events">

@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Food;
+use App\Models\Message;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+
 
 class HomeController extends Controller
 {
@@ -151,6 +154,15 @@ class HomeController extends Controller
             'selected' => $food[0]->name ?? 'Begal',
             'selected_id' => $food[0]->id ?? null,
         ]);
+    }
+    public function messages(Request $request)
+    {
+        $message = Message::create($request->all());
+
+        Session::flash('message', 'The message has been sent successfully');
+        Session::flash('alert-class', 'alert alert-success');
+
+        return redirect()->route('contact');
     }
 
 }

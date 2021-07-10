@@ -135,7 +135,7 @@ page banner section
 
 
 <!--
-    our experts
+    our restaurants
  -->
 
 <div class="page-content">
@@ -155,10 +155,6 @@ page banner section
         </div>
     </div>
     <div class="grid2 gallerypage">
-     
-    
-        
-    
         <div class="single-gall  grid-item2 cat-1 ">
             <div class="gallery-bg" style="background-image: url(assets/images/all-img/eatery-300x300.jpg)"></div>
             <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">

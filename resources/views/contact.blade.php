@@ -50,10 +50,11 @@ Header area start
  -->
 
     <div class="site-header header-2">
+
     <div class="top-header">
             <div class="container">
                 <div class="row">
-                  
+
                     <!-- end top header single -->
                     <div class="col-lg-6 col-md-4">
                         <ul class="text-center text-md-right rgt">
@@ -74,7 +75,7 @@ Header area start
                 <div class="ml-auto main-menu">
                     <ul>
                         <li class="current-menu-item ">
-                        <a href="{{route('home')}}">Home</a>  
+                        <a href="{{route('home')}}">Home</a>
                         </li>
                         <li><a href="{{route('bmi')}}">BMI</a></li>
 
@@ -84,8 +85,8 @@ Header area start
                                 <li><a href="{{route('Healthy_Food')}}">Healthy-Food</a></li>
                             </ul>
                         </li>
-                     
-                        
+
+
                         <li class="menu-item-has-children"><a href="#">Pages</a>
                             <ul class="sub-menu">
                                 <li><a href="{{route('sports')}}">sports</a></li>
@@ -99,7 +100,7 @@ Header area start
                             </ul>
                         </li>
                         <li> <a href="{{route('food')}}">Food Calculator</a>
-                            
+
                         </li>
                         <li><a href="{{route('contact')}}">Contacts</a></li>
                     </ul>
@@ -127,7 +128,7 @@ page banner section
             <div class="row align-items-center justify-content-center page-bn-height">
                 <div class="col-12 text-center">
                     <h3>contact us</h3>
-                    
+
                 </div>
             </div>
         </div>
@@ -139,9 +140,13 @@ page banner section
     our experts
  -->
 
-    <section class="page-content">
-        <div class="container">
-            <div class="row">
+ <section class="page-content">
+     <div class="container">
+         @if(Session::has('message'))
+        <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
+
+        @endif
+         <div class="row">
                 <div class="col-lg-4">
                     <div class="single-contact-innfo d-flex flex-column justify-content-center align-items-center">
                         <div class="boxicon mr-3"><i class="icofont">location_pin</i></div>
@@ -161,7 +166,7 @@ page banner section
                     <div class="single-contact-innfo d-flex flex-column justify-content-center align-items-center">
                         <div class="boxicon mr-3"><i class="icofont">ui_message</i></div>
                         <h3>Write Us Now</h3>
-                       
+
                     </div>
                 </div>
                 <!-- end single contact info -->
@@ -169,18 +174,31 @@ page banner section
             <div class="spacer-extra2"></div>
             <!-- end extra spacer -->
             <div class="row">
+
+
+
+
+
+
+
+
+
                 <div class="col-lg-6">
-                    <form class="site-contactform">
+                    <form class="site-contactform" action="messages" method="POST" enctype="multipart/form-data">
+                        @csrf
                         <h3 class="section-title xs2">Contact Us</h3>
                         <div class="form-row">
                             <div class="col-12">
-                                <input type="text" class="form-control" placeholder="Type Your Name">
+                                <label for="">Name</label>
+                                <input  name="name" type="text" class="form-control" placeholder="Type Your Name" required>
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control" placeholder="Email">
+                                <label for="">Email</label>
+                                <input  name="email" type="email" class="form-control" placeholder="Email" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control" placeholder="write your message"></textarea>
+                                <label for="">Message</label>
+                                <textarea name="message" class="form-control" placeholder="write your message" required></textarea>
                             </div>
                         </div>
 
@@ -188,13 +206,28 @@ page banner section
 
                     </form>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="col-lg-6">
                     <div class="promo-add">
                         <img src="assets/images/all-img/contact.jpg" alt="">
                         <div class="promo-text">
                             <span>Need Help For Any</span>
                             <h4>Health Information </h4>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -211,7 +244,7 @@ page banner section
 
 
 
-   
+
 
 
 
@@ -229,10 +262,10 @@ page banner section
                 <div class="col-12">
                     <div class="brands-active owl-carousel">
                         <div class="single-brands">
-                         <a target="_blank" href="https://www.facebook.com/balancegymegy"><img src="assets/images/all-img/Balance-gym.jpg" alt=""></a>   
+                         <a target="_blank" href="https://www.facebook.com/balancegymegy"><img src="assets/images/all-img/Balance-gym.jpg" alt=""></a>
                         </div><!-- end single brands -->
                         <div class="single-brands">
-                        <a  target="_blank" href="https://www.facebook.com/GoldsGymEgypt/"><img src="assets/images/all-img/gym2.jpg" alt=""></a>    
+                        <a  target="_blank" href="https://www.facebook.com/GoldsGymEgypt/"><img src="assets/images/all-img/gym2.jpg" alt=""></a>
                         </div><!-- end single brands -->
                         <div class="single-brands">
                           <a   target="_blank" href="https://www.facebook.com/just4diet/"> <img src="assets/images/all-img/diet_rest.jpeg" alt=""></a>
@@ -240,7 +273,7 @@ page banner section
                         <div class="single-brands">
                             <a  target="_blank" href="https://www.facebook.com/CaloriesEgy/"> <img src="assets/images/all-img/diet_rest2.jpg" alt="" ></a>
                         </div><!-- end single brands -->
-                        
+
                     </div>
                 </div>
             </div>
@@ -255,11 +288,11 @@ page banner section
         <div class="row align-items-center">
     <!-- end single footer -->
             <div class="col-lg-4 col-md-6">
-            
+
             </div><!-- end single footer -->
             <div class="col-lg-4 col-md-6">
                 <div class="single-footer">
-                 
+
                     <ul class="footer-social">
                         <li><a href="#"><i class="icofont">facebook</i></a></li>
                         <li><a href="#"><i class="icofont">twitter</i></a></li>

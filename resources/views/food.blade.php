@@ -146,30 +146,29 @@ page banner section
 
  <div class="blog-area  page-blog">
 
-<form action="search" method="GET" enctype="multipart/form-data">
-    @csrf
+    <form action="search" method="GET" enctype="multipart/form-data">
+       @csrf
 
-    <div class="input-group sm-form form-sm form-2 pl-0 w-75 mx-auto">
+      <div class="input-group sm-form form-sm form-2 pl-0 w-75 mx-auto">
+
+            <div class="input-group mb-3">
 
 
-        <div class="input-group mb-3">
+              <select name="food" class="custom-select nameid" id="inputGroupSelect02">
+                    @foreach ($items as $item)
+                    @if ($loop->last)
+                    @isset($selected)
+                    <option  value="{{$selected_id}}" selected >{{$selected}}</option>
+                     @endisset
+                     @endif
+                    <option  value="{{$item->id}}">{{$item->name}}</option>
+                    @endforeach
 
+                </select>
 
-            <select name="food" class="custom-select nameid" id="inputGroupSelect02">
-                @foreach ($items as $item)
-                @if ($loop->last)
-                @isset($selected)
-        <option  value="{{$selected_id}}" selected >{{$selected}}</option>
-        @endisset
-        @endif
-                <option  value="{{$item->id}}">{{$item->name}}</option>
-              @endforeach
+            </div>
 
-            </select>
-
-          </div>
-
-    </div>
+        </div>
                  <br>
     <div class="mx-auto w-75">
             <div class="row">

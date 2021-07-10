@@ -54,7 +54,7 @@ Header area start
             <div class="container">
                 <div class="row">
                   
-                    <!-- end top header single --> -->
+                    <!-- end top header single --> 
                     <div class="col-lg-6 col-md-4">
                         <ul class="text-center text-md-right rgt">
                             <li><a href="#"><i class="icofont">facebook</i></a></li>
@@ -136,8 +136,7 @@ page banner section
 
 
     <!--
-    our experts
- -->
+    our experts -->
 
     <section class="page-content">
         <div class="container">
@@ -185,6 +184,8 @@ page banner section
                     </div>
                 </div>
                 <!-- end experts active -->
+
+                <!-- diet recipes -->
                 <div class="col-lg-6">
                     <div class="experts-detils">
                         <h4>Diet Shawarma</h4>

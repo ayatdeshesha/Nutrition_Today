@@ -39,3 +39,4 @@ Route::get('/diet', [App\Http\Controllers\HomeController::class, 'diet'])->name(
 Route::get('/search', [App\Http\Controllers\HomeController::class, 'search'])->name('search');
 
 Route::post('/test', [App\Http\Controllers\HomeController::class, 'test'])->name('test');
+Route::post('/messages', [App\Http\Controllers\HomeController::class, 'messages'])->name('messages');
